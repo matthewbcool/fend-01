@@ -13,7 +13,7 @@ body {
   width: 100%;
 }
 
-#projects {
-  display: flex;
-  flex-wrap: wrap;
+.mega-man-logo {
+  height: 80px;
+  width: 80px;
 }
