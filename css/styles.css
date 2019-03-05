@@ -1,0 +1,13 @@
+.project-card {
+  display: flex;
+  width: 280px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border: solid black 2px;
+  flex-direction: column;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+}
