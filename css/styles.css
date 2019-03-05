@@ -1,13 +1,21 @@
 .project-card {
   display: flex;
   width: 250px;
-  margin: 5px 5px 5px 5px;
+  margin: 5px 15px 5px 15px;
   padding: 5px 5px 5px 5px;
   border: solid black 2px;
   flex-direction: column;
 }
 
-.project-row {
+.project-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (min-width: 750px) {
+  .project-card {
+    width: 300px;
+  }
 }
